@@ -1,0 +1,48 @@
+// colors
+
+$primary: #861A22;
+$secondary: #F9F4F2;
+
+
+// fonts
+
+
+
+
+// spaces
+$spacer: 1rem ;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  40: $spacer * 2.5,
+  48: $spacer * 3,
+  56: $spacer * 3.5,
+  64: $spacer * 4,
+  72: $spacer * 4.5,
+  80: $spacer * 5,
+  96: $spacer * 6,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+//   xxxl: 1600px
+);
+
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+//   xxxl: 1500px
+);

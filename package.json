@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-theming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch ./scss/custom.scss ./dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.50.1"
+  }
+}
