@@ -1,20 +1,35 @@
 // colors
 
-$primary: #861A22;
-$secondary: #F9F4F2;
+$primary: #861a22;
+$secondary: #f9f4f2;
+$black: #000;
+$white: #fff;
 
+$font-family-base: "Jost", sans-serif;
+$font-family-secondary: "Josefin Sans", sans-serif;
+$font-family-tertiary: "Playfair Display", serif;
 
-// fonts
-
-
-
+// 'class-name' 'font-family' font-size font-weight line-height color
+$fonts-to-generate: 
+    "text-base-80--semibold" $font-family-base 80px 600 99px $primary,
+    "text-secondary-80--semibold" $font-family-secondary 80px 600 99px $primary,
+    "text-tertiary-50" $font-family-tertiary 50px 400 99px $primary,
+    "text-base-60" $font-family-base 50px 400 73px $primary,
+    "text-secondary-59" $font-family-secondary 50px 400 73px $primary,
+    "text-tertiary-40" $font-family-tertiary 40px 400 73px $primary,
+    "text-base-20" $font-family-base 20px 400 29px $black,
+    "text-base-24--semibold" $font-family-base 24px 600 58px $black,
+    "text-secondary-24--semibold" $font-family-secondary 24px 600 58px $black,
+    "text-tertiary-24--semibold" $font-family-tertiary 24px 400 58px $black,
+    "text-base-49--semibold" $font-family-tertiary 49px 600 61px $white,
+    ;
 
 // spaces
-$spacer: 1rem ;
+$spacer: 1rem;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 2,
@@ -34,9 +49,8 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-//   xxxl: 1600px
+  //   xxxl: 1600px
 );
-
 
 $container-max-widths: (
   sm: 540px,
@@ -44,5 +58,6 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px,
   xxl: 1320px,
-//   xxxl: 1500px
+  //   xxxl: 1500px
 );
+
